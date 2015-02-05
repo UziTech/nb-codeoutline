@@ -58,7 +58,7 @@ public class OutlineSideBarFactory implements org.netbeans.spi.editor.SideBarFac
             NaviView naviView = new NaviView(jtc.getDocument(), scrollPane.getVerticalScrollBar());
             naviView.setPreferredSize(new Dimension(NAVIVIEW_WIDTH, 0));
             naviView.setMaximumSize(new Dimension(NAVIVIEW_WIDTH, Integer.MAX_VALUE));
-            naviView.setBorder(BorderFactory.createBevelBorder(BevelBorder.LOWERED));
+//            naviView.setBorder(BorderFactory.createBevelBorder(BevelBorder.LOWERED));
             return naviView;
         }
         return null;
